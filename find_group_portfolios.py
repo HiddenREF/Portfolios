@@ -6,6 +6,7 @@ Created on Fri Aug 21 11:58:24 2026
 """
 import pandas as pd
 from IPython.display import display, HTML
+from pathlib import Path
 
 OUTPUT_TYPE_NAMES = {
     "A": "Authored book",
@@ -77,3 +78,29 @@ df_portfolio_direct = df.loc[df['publisher'].fillna('').str.contains(r'portfolio
                        df['title'].fillna('').str.contains(r'portfolio', case=False, regex=True)]
 
 #display(HTML(both_by_output_type.to_html()))
+
+# Update the README.md file to include the summary table
+
+table = both_by_output_type.reset_index().to_markdown(index=False)
+#table = both_by_output_type.to_markdown(index=False)
+
+readme_path = Path("README.md")
+readme = readme_path.read_text(encoding="utf-8")
+
+start = "<!-- TABLE_START -->"
+end = "<!-- TABLE_END -->"
+
+before = readme.split(start)[0]
+after = readme.split(end)[1]
+
+new_readme = (
+    before
+    + start
+    + "\n\n"
+    + table
+    + "\n\n"
+    + end
+    + after
+)
+
+readme_path.write_text(new_readme, encoding="utf-8")
