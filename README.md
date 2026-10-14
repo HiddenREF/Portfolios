@@ -18,8 +18,9 @@ appear to provide the most useful indicators of an output that could have been p
 
 The script searches REF output metadata for these indicators, including their occurrence in fields such as **title** and **publisher**.
 
-> [!IMPORTANT]
-> The outputs identified by this method should be treated as **likely or candidate portfolio outputs**, rather than a definitive list of REF2021 portfolios. "Portfolio" was not a standalone REF output classification, and the method relies on descriptive information available in the published metadata.
+> ## Important limitation
+>**The metadata may not capture every portfolio-style submission.**  
+>   The method can therefore identify likely portfolios where relevant terminology is present, but should not be interpreted as establishing that outputs without those terms were not submitted as portfolios.
 
 
 ## Results
@@ -65,12 +66,6 @@ The current results are shown below.
 <!-- TABLE_END -->
 
 
-## Important limitation
-
-**The metadata may not capture every portfolio-style submission.**  
-   The method can therefore identify likely portfolios where relevant terminology is present, but should not be interpreted as establishing that outputs without those terms were not submitted as portfolios.
-
-
 ## REF2021 guidance
 
 The methodology is based on the following official REF2021 guidance:
@@ -88,4 +83,11 @@ Suggested reference:
     Wioleta Kijewska, James Baker, Simon Hettrick, Lyndsey Ballantyne, Michael Donnay, Gemma Derrick, Ben Thomas, and Ola Thomson, Identifying portfolios submitted to REF2021 based on suggestions from official guidance (The Hidden REF, 2026) [https://github.com/HiddenREF/Portfolios](https://github.com/HiddenREF/Portfolios)
 
 
+### Files
+
+- `table.html` – the results table in a .html format.
+- `find_group_portfolios.py` – Python script that finds and groups the portfolio submissions.
+
+#### Running script
+The script requires the `ref2021_submissions_full.csv` datafile with all REF2021 submissions, and uses libraries `pandas`, `pathlib`, and `IPython.display`. The script will update the README.md file with the current view of the results table.
 

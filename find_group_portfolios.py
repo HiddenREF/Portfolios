@@ -75,18 +75,17 @@ both_by_output_type = (
     .sort_index(level='output'))
 
 
-
 #both_by_output_type.plot(kind='barh')
 
 df_portfolio_direct = df.loc[df['publisher'].fillna('').str.contains(r'portfolio', case=False, regex=True) | 
                        df['title'].fillna('').str.contains(r'portfolio', case=False, regex=True)]
 
-#display(HTML(both_by_output_type.to_html()))
+display(HTML(both_by_output_type.to_html()))
+both_by_output_type.to_html("table.html")
 
 # Update the README.md file to include the summary table
 
 table = both_by_output_type.reset_index().to_markdown(index=False)
-#table = both_by_output_type.to_markdown(index=False)
 
 readme_path = Path("README.md")
 readme = readme_path.read_text(encoding="utf-8")
