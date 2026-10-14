@@ -1,5 +1,8 @@
 # Identifying portfolios submitted to REF2021
 
+In REF2021, a portfolio was not a recognised output type. This does not mean that portfolios were not being created through research. This repository provides a reproducible way of identifying portfolios, based on terminology in the REF guidance and information retained in the published output metadata.
+
+
 ## Which outputs are portfolios?
 
 This repository explores how portfolio-style submissions can be identified in the published REF2021 output metadata.
@@ -20,6 +23,15 @@ The script searches REF output metadata for these indicators, including their oc
 
 
 ## Results
+
+We have grouped the matching records by:
+
+- REF output type,
+- Unit of Assessment (UOA),
+- Main Panel, and
+- submitting institution.
+
+The current results are shown below.
 
 <!-- TABLE_START -->
 
@@ -51,4 +63,29 @@ The script searches REF output metadata for these indicators, including their oc
 | T             | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |                          33 | D            | University of South Wales / Prifysgol De Cymru        |       2 | Other                            |
 
 <!-- TABLE_END -->
+
+
+## Important limitation
+
+**The metadata may not capture every portfolio-style submission.**  
+   The method can therefore identify likely portfolios where relevant terminology is present, but should not be interpreted as establishing that outputs without those terms were not submitted as portfolios.
+
+
+## REF2021 guidance
+
+The methodology is based on the following official REF2021 guidance:
+
+- **[Panel criteria and working methods (REF 2019/02)](https://2021.ref.ac.uk/media/1450/ref-2019_02-panel-criteria-and-working-methods.pdf)**  
+  See in particular page 48.
+
+- **[Submitting practice research outputs to REF2021](https://2021.ref.ac.uk/media/1238/submitting-practice-research-outputs-to-ref2021.pdf)**  
+
+
+## Reference
+
+Suggested reference:
+
+    Wioleta Kijewska, James Baker, Simon Hettrick, Lyndsey Ballantyne, Michael Donnay, Gemma Derrick, Ben Thomas, and Ola Thomson, Identifying portfolios submitted to REF2021 based on suggestions from official guidance (The Hidden REF, 2026) [https://github.com/HiddenREF/Portfolios](https://github.com/HiddenREF/Portfolios)
+
+
 
