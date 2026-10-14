@@ -37,14 +37,16 @@ file_name = '../data/REF2021/ref2021_submissions_full.csv'
 df = pd.read_csv(file_name)
 df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
+df = df.rename(columns={'unit_of_assessment_number':'uoa_number', 'output_type': 'output'})
+
 #look for portfolios based on the 'contextual information' phrase
 df_portfolios = df.loc[df['publisher'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True) | 
                        df['title'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True)]
 
-by_uoa = df_portfolios.groupby('unit_of_assessment_number').count()['ID']
+by_uoa = df_portfolios.groupby('uoa_number').count()['ID']
 df_portfolios.groupby('uoa').count()
 by_panel = df_portfolios.groupby('main_panel').count()
-by_output_type = df_portfolios.groupby(['output_type', 'uoa', 'unit_of_assessment_number', 'main_panel']).count()['ID']
+by_output_type = df_portfolios.groupby(['output', 'uoa', 'uoa_number', 'main_panel']).count()['ID']
 
 # look for portfolios based on the 'multi-component' phrase
 df_multi = df.loc[(df['publisher'].fillna('').str.contains(r'multi\s+component', case=False, regex=True) & 
@@ -58,19 +60,21 @@ df_both_portfolio = df.loc[df['publisher'].fillna('').str.contains(r'multi\s+com
                   df['title'].fillna('').str.contains(r'multi\s+component', case=False, regex=True) | 
                  df['title'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True)]
 
-df_both_portfolio=df_both_portfolio.loc[df_both_portfolio['output_type']!='D']
+df_both_portfolio=df_both_portfolio.loc[df_both_portfolio['output']!='D']
+
+df_both_portfolio['output_name'] = (
+    df_both_portfolio['output']
+    .map(OUTPUT_TYPE_NAMES))
 
 both_by_output_type = (
     df_both_portfolio
-    .groupby(['output_type', 'uoa', 'unit_of_assessment_number', 'main_panel', 'institution'])
+    .groupby(['output', 'output_name', 'uoa', 'uoa_number', 'main_panel', 'institution'])
     .size()
     .rename('count')
     .to_frame()
-    .sort_index(level='output_type'))
+    .sort_index(level='output'))
 
-both_by_output_type['output_type_name'] = (
-    both_by_output_type.index.get_level_values('output_type')
-    .map(OUTPUT_TYPE_NAMES))
+
 
 #both_by_output_type.plot(kind='barh')
 
