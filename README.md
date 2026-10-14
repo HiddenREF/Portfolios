@@ -80,7 +80,7 @@ The methodology is based on the following official REF2021 guidance:
 
 Suggested reference:
 
--  Wioleta Kijewska, James Baker, Simon Hettrick, Lyndsey Ballantyne, Michael Donnay, Gemma Derrick, Ben Thomas, and Ola Thomson, Identifying portfolios submitted to REF2021 based on suggestions from official guidance (The Hidden REF, 2026) [https://github.com/HiddenREF/Portfolios](https://github.com/HiddenREF/Portfolios)
+-  Wioleta Kijewska, James Baker, Simon Hettrick, Lyndsey Ballantyne, Michael Donnay, Gemma Derrick, Ben Thomas, and Ola Thomson, *Identifying portfolios submitted to REF2021 based on suggestions from official guidance* (The Hidden REF, 2026) [https://github.com/HiddenREF/Portfolios](https://github.com/HiddenREF/Portfolios)
 
 
 ### Files
