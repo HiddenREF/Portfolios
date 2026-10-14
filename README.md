@@ -1,4 +1,23 @@
-# Portfolios
+# Identifying portfolios submitted to REF2021
+
+## Which outputs are portfolios?
+
+This repository explores how portfolio-style submissions can be identified in the published REF2021 output metadata.
+
+The approach is based on the terminology used in the REF2021 guidance. See the REF2021 [Panel criteria and working methods](https://2021.ref.ac.uk/media/1450/ref-2019_02-panel-criteria-and-working-methods.pdf), and [Submitting practice research outputs to REF2021](https://2021.ref.ac.uk/media/1238/submitting-practice-research-outputs-to-ref2021.pdf).
+
+In particular, the terms:
+
+- **`Multi-component`**
+- **`contextual information`**
+
+appear to provide the most useful indicators of an output that could have been previously identified as a portfolio.
+
+The script searches REF output metadata for these indicators, including their occurrence in fields such as **title** and **publisher**.
+
+> [!IMPORTANT]
+> The outputs identified by this method should be treated as **likely or candidate portfolio outputs**, rather than a definitive list of REF2021 portfolios. "Portfolio" was not a standalone REF output classification, and the method relies on descriptive information available in the published metadata.
+
 
 ## Results
 
