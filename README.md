@@ -1,7 +1,6 @@
 # Identifying portfolios submitted to REF2021
 
-In REF2021, a portfolio was not a recognised output type. This does not mean that portfolios were not being created through research. This repository provides a reproducible way of identifying portfolios, based on terminology in the REF guidance and information retained in the published output metadata.
-
+In REF2021, a portfolio was not a category of output type in [Annex K: Output glossary and collection formats](https://www.britsoc.co.uk/media/24852/annex-k-output-glossary-and-collection-formats.pdf). Portfolios were nevertheless submitted to REF2021 as outputs of research, 'hidden' within existing output categories. There is not easy way, therefore, of identifying portfolios submitted as outputs to REF2021 and calculating their volume and distribution relative to other output types. This repository provides a reproducible way of identifying portfolios, based on terminology in the REF guidance and information retained in the published output metadata, as a basis for calculating their volume and distribution.
 
 ## Which outputs are portfolios?
 
@@ -14,14 +13,13 @@ In particular, the terms:
 - `"Multi-component"`
 - `"contextual information"`
 
-appear to provide the most useful indicators of an output that could have been previously identified as a portfolio.
+appear to provide the most useful indicators of an output that is structured as a portfolio.
 
-The script searches REF output metadata for these indicators, including their occurrence in fields such as **title** and **publisher**.
+The script [find_group_portfolios.py](https://github.com/HiddenREF/Portfolios/blob/main/find_group_portfolios.py) searches REF output metadata for these indicators, including their occurrence in fields such as **title** and **publisher**.
 
 > ## Important limitation
 >**The metadata may not capture every portfolio-style submission.**  
 >   The method can therefore identify likely portfolios where relevant terminology is present, but should not be interpreted as establishing that outputs without those terms were not portfolios.
-
 
 ## Results
 
@@ -30,9 +28,9 @@ We have grouped the matching records by:
 - REF output type,
 - Unit of Assessment (UOA),
 - Main Panel, and
-- submitting institution.
+- Submitting institution.
 
-The current results are shown below.
+The results are shown below.
 
 <!-- TABLE_START -->
 
@@ -80,7 +78,7 @@ The methodology is based on the following official REF2021 guidance:
 
 Suggested reference:
 
--  Wioleta Kijewska, James Baker, Simon Hettrick, Lyndsey Ballantyne, Michael Donnay, Gemma Derrick, Ben Thomas, and Ola Thomson, *Identifying portfolios submitted to REF2021 based on suggestions from official guidance* (The Hidden REF, 2026) [https://github.com/HiddenREF/Portfolios](https://github.com/HiddenREF/Portfolios)
+-  Wioleta Kijewska, James Baker, Simon Hettrick, Lyndsey Ballantyne, Michael Donnay, Gemma Derrick, Ben Thomas, and Ola Thomson, *Identifying portfolios submitted to REF2021* (The Hidden REF, 2026) [https://github.com/HiddenREF/Portfolios](https://github.com/HiddenREF/Portfolios)
 
 
 ### Files
