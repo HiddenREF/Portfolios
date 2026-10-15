@@ -11,8 +11,8 @@ The approach is based on the terminology used in the REF2021 guidance. See the R
 
 In particular, the terms:
 
-- **`Multi-component`**
-- **`contextual information`**
+- `"Multi-component"`
+- `"contextual information"`
 
 appear to provide the most useful indicators of an output that could have been previously identified as a portfolio.
 
@@ -20,7 +20,7 @@ The script searches REF output metadata for these indicators, including their oc
 
 > ## Important limitation
 >**The metadata may not capture every portfolio-style submission.**  
->   The method can therefore identify likely portfolios where relevant terminology is present, but should not be interpreted as establishing that outputs without those terms were not submitted as portfolios.
+>   The method can therefore identify likely portfolios where relevant terminology is present, but should not be interpreted as establishing that outputs without those terms were not portfolios.
 
 
 ## Results
