@@ -26,9 +26,9 @@ The script [find_group_portfolios.py](https://github.com/HiddenREF/Portfolios/bl
 We have grouped the matching records by:
 
 - REF output type,
-- Unit of Assessment (UOA),
-- Main Panel, and
-- Submitting institution.
+- Main Panel,
+- Unit of Assessment (UOA) number, and
+- Count.
 
 The results are shown below.
 
