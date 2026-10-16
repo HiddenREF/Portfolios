@@ -73,7 +73,8 @@ both_by_output_type = (
     .size()
     .rename('count')
     .to_frame()
-    .sort_index(level='output'))
+    .sort_values(by='count', ascending=False)
+    .sort_index(level=['output', 'main_panel', 'uoa_number'], sort_remaining=False))
 
 
 #both_by_output_type.plot(kind='barh')
