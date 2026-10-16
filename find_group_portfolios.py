@@ -49,18 +49,19 @@ by_panel = df_portfolios.groupby('main_panel').count()
 by_output_type = df_portfolios.groupby(['output', 'uoa', 'uoa_number', 'main_panel']).count()['ID']
 
 # look for portfolios based on the 'multi-component' phrase
-df_multi = df.loc[(df['publisher'].fillna('').str.contains(r'multi\s+component', case=False, regex=True) & 
+df_multi = df.loc[(df['publisher'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) & 
                  ~df['publisher'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True)) |
-                  (df['title'].fillna('').str.contains(r'multi\s+component', case=False, regex=True) & 
+                  (df['title'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) & 
                  ~df['title'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True))]
 
 #portfolios based on both phrases
-df_both_portfolio = df.loc[df['publisher'].fillna('').str.contains(r'multi\s+component', case=False, regex=True) | 
+df_both_portfolio = df.loc[df['publisher'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) | 
                  df['publisher'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True) |
-                  df['title'].fillna('').str.contains(r'multi\s+component', case=False, regex=True) | 
+                  df['title'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) | 
                  df['title'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True)]
 
-df_both_portfolio=df_both_portfolio.loc[df_both_portfolio['output']!='D']
+# Portfolios do not have a volume title
+df_both_portfolio = df_both_portfolio.loc[df_both_portfolio['volume_title'].isna()]
 
 df_both_portfolio['output_name'] = (
     df_both_portfolio['output']
