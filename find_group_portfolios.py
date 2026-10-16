@@ -40,8 +40,8 @@ df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 df = df.rename(columns={'unit_of_assessment_number':'uoa_number', 'output_type': 'output'})
 
 #look for portfolios based on the 'contextual information' phrase
-df_portfolios = df.loc[df['publisher'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True) | 
-                       df['title'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True)]
+df_portfolios = df.loc[df['publisher'].fillna('').str.contains(r'contextual(?:ising)*\s+information', case=False, regex=True) | 
+                       df['title'].fillna('').str.contains(r'contextual(?:ising)*\s+information', case=False, regex=True)]
 
 by_uoa = df_portfolios.groupby('uoa_number').count()['ID']
 df_portfolios.groupby('uoa').count()
@@ -50,15 +50,15 @@ by_output_type = df_portfolios.groupby(['output', 'uoa', 'uoa_number', 'main_pan
 
 # look for portfolios based on the 'multi-component' phrase
 df_multi = df.loc[(df['publisher'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) & 
-                 ~df['publisher'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True)) |
+                 ~df['publisher'].fillna('').str.contains(r'contextual(?:ising)*\s+information', case=False, regex=True)) |
                   (df['title'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) & 
-                 ~df['title'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True))]
+                 ~df['title'].fillna('').str.contains(r'contextual(?:ising)*\s+information', case=False, regex=True))]
 
 #portfolios based on both phrases
 df_both_portfolio = df.loc[df['publisher'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) | 
-                 df['publisher'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True) |
+                 df['publisher'].fillna('').str.contains(r'contextual(?:ising)*\s+information', case=False, regex=True) |
                   df['title'].fillna('').str.contains(r'multi[\s-]*component', case=False, regex=True) | 
-                 df['title'].fillna('').str.contains(r'contextual\s+information', case=False, regex=True)]
+                 df['title'].fillna('').str.contains(r'contextual(?:ising)*\s+information', case=False, regex=True)]
 
 # Portfolios do not have a volume title
 df_both_portfolio = df_both_portfolio.loc[df_both_portfolio['volume_title'].isna()]
@@ -81,7 +81,7 @@ both_by_output_type = (
 df_portfolio_direct = df.loc[df['publisher'].fillna('').str.contains(r'portfolio', case=False, regex=True) | 
                        df['title'].fillna('').str.contains(r'portfolio', case=False, regex=True)]
 
-display(HTML(both_by_output_type.to_html()))
+#display(HTML(both_by_output_type.to_html()))
 both_by_output_type.to_html("table.html")
 
 # Update the README.md file to include the summary table
