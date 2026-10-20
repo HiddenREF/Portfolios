@@ -32,7 +32,7 @@ We have grouped the matching records by:
 
 Ordered by Count for each resulting group.
 
-The results are shown below.
+The results are shown below. Additionally, grouping results including Institution are included in the [table.html](table.html) file.
 
 <!-- TABLE_START -->
  Total portfolios found: 504
@@ -235,7 +235,7 @@ Suggested reference:
 
 ### Files
 
-- `table.html` – the results table in a .html format.
+- `table.html` – the results table including grouping by institution, in a .html format.
 - `find_group_portfolios.py` – Python script that finds and groups the portfolio submissions.
 
 #### Running script
