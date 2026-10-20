@@ -6,14 +6,14 @@ In REF2021, a portfolio was not a category of output type in [Annex K: Output gl
 
 This repository explores how portfolio-style submissions can be identified in the published REF2021 output metadata.
 
-The approach is based on the terminology used in the REF2021 guidance. See the REF2021 [Panel criteria and working methods](https://2021.ref.ac.uk/media/1450/ref-2019_02-panel-criteria-and-working-methods.pdf), and [Submitting practice research outputs to REF2021](https://2021.ref.ac.uk/media/1238/submitting-practice-research-outputs-to-ref2021.pdf).
+The approach is based on the terminology provided by the REF2021 guidance for use in title or publisher fields during submission of outputs. See the REF2021 [Panel criteria and working methods](https://2021.ref.ac.uk/media/1450/ref-2019_02-panel-criteria-and-working-methods.pdf), and [Submitting practice research outputs to REF2021](https://2021.ref.ac.uk/media/1238/submitting-practice-research-outputs-to-ref2021.pdf).
 
 In particular, the terms..
 
 - `"Multi-component"`
 - `"contextual information"`
 
-.. (in their variant forms, including `"Multi component"`, `"multicomponent"`, and `"contextualising information"` appear to provide the most useful indicators of an output that is structured as a portfolio.
+.. (and their variant forms, including `"Multi component"`, `"multicomponent"`, and `"contextualising information"`) appear to provide the most useful indicators of an output that is structured as a portfolio.
 
 The script [find_group_portfolios.py](https://github.com/HiddenREF/Portfolios/blob/main/find_group_portfolios.py) searches REF output metadata for these indicators, including their occurrence in fields such as **title** and **publisher**.
 
