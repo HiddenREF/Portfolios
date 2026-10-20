@@ -48,12 +48,12 @@ The results are shown below.
       <th>count</th>
     </tr>
     <tr>
-      <th>main_panel</th>
-      <th>panel_total</th>
+      <th>main panel</th>
+      <th>panel total</th>
       <th>output</th>
-      <th>output_name</th>
-      <th>output_total</th>
-      <th>uoa_number</th>
+      <th>output name</th>
+      <th>output total</th>
+      <th>uoa number</th>
       <th>uoa</th>
       <th></th>
     </tr>
