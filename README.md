@@ -35,7 +35,7 @@ The results are shown below.
 <!-- TABLE_START -->
  Total portfolios found: 504
 
-<table><table border="1" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -209,7 +209,7 @@ The results are shown below.
       <td>9</td>
     </tr>
   </tbody>
-</table><\table>
+</table>
 
 <!-- TABLE_END -->
 
