@@ -33,90 +33,183 @@ We have grouped the matching records by:
 The results are shown below.
 
 <!-- TABLE_START -->
+ Total portfolios found: 504
 
-| output   | output_name                      | uoa                                                                           |   uoa_number | main_panel   | institution                                           |   count |
-|:---------|:---------------------------------|:------------------------------------------------------------------------------|-------------:|:-------------|:------------------------------------------------------|--------:|
-| H        | Website content                  | Art and Design: History, Practice and Theory                                  |           32 | D            | Bournemouth University                                |       1 |
-| H        | Website content                  | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Bath Spa University                                   |       2 |
-| I        | Performance                      | English Language and Literature                                               |           27 | D            | University of Cambridge                               |       1 |
-| I        | Performance                      | Art and Design: History, Practice and Theory                                  |           32 | D            | Bath Spa University                                   |       9 |
-| I        | Performance                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Bath Spa University                                   |       6 |
-| I        | Performance                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Guildhall School of Music & Drama                     |       5 |
-| I        | Performance                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | City, University of London                            |       2 |
-| I        | Performance                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Edinburgh Napier University                           |       1 |
-| J        | Composition                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Bath Spa University                                   |      17 |
-| J        | Composition                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Guildhall School of Music & Drama                     |      13 |
-| J        | Composition                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Edinburgh Napier University                           |       6 |
-| J        | Composition                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | City, University of London                            |       4 |
-| J        | Composition                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | The University of West London                         |       1 |
-| J        | Composition                      | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | De Montfort University                                |       1 |
-| K        | Design                           | Art and Design: History, Practice and Theory                                  |           32 | D            | Bath Spa University                                   |       2 |
-| K        | Design                           | Art and Design: History, Practice and Theory                                  |           32 | D            | Anglia Ruskin University Higher Education Corporation |       1 |
-| L        | Artefact                         | Art and Design: History, Practice and Theory                                  |           32 | D            | Bath Spa University                                   |       5 |
-| L        | Artefact                         | Art and Design: History, Practice and Theory                                  |           32 | D            | Bournemouth University                                |       1 |
-| L        | Artefact                         | Art and Design: History, Practice and Theory                                  |           32 | D            | Staffordshire University                              |       1 |
-| L        | Artefact                         | Art and Design: History, Practice and Theory                                  |           32 | D            | University of Chester                                 |       1 |
-| M        | Exhibition                       | History                                                                       |           28 | D            | Bath Spa University                                   |       1 |
-| M        | Exhibition                       | Art and Design: History, Practice and Theory                                  |           32 | D            | Bath Spa University                                   |      29 |
-| M        | Exhibition                       | Art and Design: History, Practice and Theory                                  |           32 | D            | The University of Leeds                               |       1 |
-| M        | Exhibition                       | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Guildhall School of Music & Drama                     |       1 |
-| M        | Exhibition                       | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | Bournemouth University                                |       1 |
-| M        | Exhibition                       | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | Bath Spa University                                   |       1 |
-| Q        | Digital or visual media          | English Language and Literature                                               |           27 | D            | University of Cambridge                               |       1 |
-| Q        | Digital or visual media          | Art and Design: History, Practice and Theory                                  |           32 | D            | Edinburgh Napier University                           |       7 |
-| Q        | Digital or visual media          | Art and Design: History, Practice and Theory                                  |           32 | D            | The University of Cumbria                             |       1 |
-| Q        | Digital or visual media          | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Bath Spa University                                   |       2 |
-| Q        | Digital or visual media          | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | Bath Spa University                                   |       8 |
-| Q        | Digital or visual media          | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | Bournemouth University                                |       5 |
-| S        | Research data sets and databases | Modern Languages and Linguistics                                              |           26 | D            | University of Cambridge                               |       1 |
-| T        | Other                            | Geography and Environmental Studies                                           |           14 | C            | Bath Spa University                                   |       1 |
-| T        | Other                            | Anthropology and Development Studies                                          |           22 | C            | School of Oriental and African Studies                |       2 |
-| T        | Other                            | English Language and Literature                                               |           27 | D            | Bath Spa University                                   |       4 |
-| T        | Other                            | English Language and Literature                                               |           27 | D            | University of Gloucestershire                         |       2 |
-| T        | Other                            | English Language and Literature                                               |           27 | D            | The University of Leeds                               |       1 |
-| T        | Other                            | English Language and Literature                                               |           27 | D            | Birkbeck College                                      |       1 |
-| T        | Other                            | English Language and Literature                                               |           27 | D            | University of Cambridge                               |       1 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Royal College of Art(The)                             |      68 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | University for the Creative Arts                      |      24 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | University of Derby                                   |      23 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | The University of Huddersfield                        |      22 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | The University of Westminster                         |      18 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Glasgow School of Art                                 |      17 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | University of Greenwich                               |      15 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Liverpool John Moores University                      |      15 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | University of Portsmouth                              |      14 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Abertay University                                    |       9 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Bath Spa University                                   |       8 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Birkbeck College                                      |       7 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | De Montfort University                                |       6 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | University of Central Lancashire                      |       5 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | University of Chester                                 |       4 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Edinburgh Napier University                           |       3 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | University of Southampton                             |       2 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Ravensbourne University London                        |       2 |
-| T        | Other                            | Art and Design: History, Practice and Theory                                  |           32 | D            | Staffordshire University                              |       1 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | The University of Huddersfield                        |      31 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Queen's University of Belfast                         |       9 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | University of Winchester                              |       8 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | De Montfort University                                |       6 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Bath Spa University                                   |       5 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | University of Portsmouth                              |       3 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Leeds Beckett University                              |       3 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | University of South Wales / Prifysgol De Cymru        |       2 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | Guildhall School of Music & Drama                     |       1 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | City, University of London                            |       1 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | University of Glasgow                                 |       1 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | University of Cambridge                               |       1 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | The University of West London                         |       1 |
-| T        | Other                            | Music, Drama, Dance, Performing Arts, Film and Screen Studies                 |           33 | D            | University of Southampton                             |       1 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | Staffordshire University                              |       5 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | University of Glasgow                                 |       5 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | Bath Spa University                                   |       2 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | University of the West of England, Bristol            |       1 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | University of Gloucestershire                         |       1 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | University of Winchester                              |       1 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | Queen Margaret University, Edinburgh                  |       1 |
-| T        | Other                            | Communication, Cultural and Media Studies, Library and Information Management |           34 | D            | The University of West London                         |       1 |
+<table><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>count</th>
+    </tr>
+    <tr>
+      <th>main_panel</th>
+      <th>panel_total</th>
+      <th>output</th>
+      <th>output_name</th>
+      <th>output_total</th>
+      <th>uoa_number</th>
+      <th>uoa</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">C</th>
+      <th rowspan="2" valign="top">3</th>
+      <th rowspan="2" valign="top">T</th>
+      <th rowspan="2" valign="top">Other</th>
+      <th rowspan="2" valign="top">365</th>
+      <th>22</th>
+      <th>Anthropology and Development Studies</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <th>Geography and Environmental Studies</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th rowspan="21" valign="top">D</th>
+      <th rowspan="21" valign="top">501</th>
+      <th rowspan="2" valign="top">H</th>
+      <th rowspan="2" valign="top">Website content</th>
+      <th rowspan="2" valign="top">3</th>
+      <th>33</th>
+      <th>Music, Drama, Dance, Performing Arts, Film and Screen Studies</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <th>Art and Design: History, Practice and Theory</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">I</th>
+      <th rowspan="3" valign="top">Performance</th>
+      <th rowspan="3" valign="top">24</th>
+      <th>33</th>
+      <th>Music, Drama, Dance, Performing Arts, Film and Screen Studies</th>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <th>Art and Design: History, Practice and Theory</th>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <th>English Language and Literature</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>J</th>
+      <th>Composition</th>
+      <th>42</th>
+      <th>33</th>
+      <th>Music, Drama, Dance, Performing Arts, Film and Screen Studies</th>
+      <td>42</td>
+    </tr>
+    <tr>
+      <th>K</th>
+      <th>Design</th>
+      <th>3</th>
+      <th>32</th>
+      <th>Art and Design: History, Practice and Theory</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>L</th>
+      <th>Artefact</th>
+      <th>8</th>
+      <th>32</th>
+      <th>Art and Design: History, Practice and Theory</th>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">M</th>
+      <th rowspan="4" valign="top">Exhibition</th>
+      <th rowspan="4" valign="top">34</th>
+      <th>32</th>
+      <th>Art and Design: History, Practice and Theory</th>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <th>Communication, Cultural and Media Studies, Library and Information Management</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <th>History</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <th>Music, Drama, Dance, Performing Arts, Film and Screen Studies</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">Q</th>
+      <th rowspan="4" valign="top">Digital or visual media</th>
+      <th rowspan="4" valign="top">24</th>
+      <th>34</th>
+      <th>Communication, Cultural and Media Studies, Library and Information Management</th>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <th>Art and Design: History, Practice and Theory</th>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <th>Music, Drama, Dance, Performing Arts, Film and Screen Studies</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <th>English Language and Literature</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>S</th>
+      <th>Research data sets and databases</th>
+      <th>1</th>
+      <th>26</th>
+      <th>Modern Languages and Linguistics</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th rowspan="4" valign="top">T</th>
+      <th rowspan="4" valign="top">Other</th>
+      <th rowspan="4" valign="top">365</th>
+      <th>32</th>
+      <th>Art and Design: History, Practice and Theory</th>
+      <td>263</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <th>Music, Drama, Dance, Performing Arts, Film and Screen Studies</th>
+      <td>73</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <th>Communication, Cultural and Media Studies, Library and Information Management</th>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <th>English Language and Literature</th>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table><\table>
 
 <!-- TABLE_END -->
 

@@ -76,6 +76,37 @@ both_by_output_type = (
     .sort_values(by='count', ascending=False)
     .sort_index(level=['output', 'main_panel', 'uoa_number'], sort_remaining=False))
 
+# Creating a more concise table for Readme
+table_with_totals = (
+    df_both_portfolio
+    .groupby(['output', 'output_name', 'uoa', 'uoa_number', 'main_panel'])
+    .size()
+    .rename('count')
+    .to_frame()
+    .sort_values(by='count', ascending=False)
+    .sort_index(level=[ 'main_panel', 'output'], sort_remaining=False))
+
+# Getting totals
+table_with_totals['panel_total'] = (
+    table_with_totals
+    .groupby(level='main_panel')['count']
+    .transform('sum')
+)
+
+table_with_totals['output_total'] = (
+    table_with_totals
+    .groupby(level='output')['count']
+    .transform('sum')
+)
+
+# Setting totals as indexes and reordering
+table_with_totals = (
+    table_with_totals
+    .set_index('panel_total', append=True)
+    .set_index('output_total', append=True)
+    .reorder_levels(['main_panel', 'panel_total','output', 'output_name', 
+                     'output_total',  'uoa_number', 'uoa'])
+)
 
 #both_by_output_type.plot(kind='barh')
 
@@ -101,8 +132,11 @@ after = readme.split(end)[1]
 new_readme = (
     before
     + start
+    + '\n Total portfolios found: ' + str(table_with_totals.sum().iloc[0])
     + "\n\n"
-    + table
+    + '<table>'
+    + table_with_totals.to_html()
+    + '<\\table>'
     + "\n\n"
     + end
     + after
