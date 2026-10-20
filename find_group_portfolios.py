@@ -134,9 +134,7 @@ new_readme = (
     + start
     + '\n Total portfolios found: ' + str(table_with_totals.sum().iloc[0])
     + "\n\n"
-    + '<table>'
     + table_with_totals.to_html().replace('_', ' ')
-    + '<\\table>'
     + "\n\n"
     + end
     + after
