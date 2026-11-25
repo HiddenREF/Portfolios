@@ -232,6 +232,8 @@ Suggested reference:
 
 -  Wioleta Kijewska, James Baker, Simon Hettrick, Lyndsey Ballantyne, Michael Donnay, Gemma Derrick, Ben Thomas, and Ola Thomson, *Identifying portfolios submitted to REF2021* (The Hidden REF, 2026) [https://github.com/HiddenREF/Portfolios](https://github.com/HiddenREF/Portfolios)
 
+## Licence
+Unless otherwise stated, all derived data, code, interactives, and documentation are © The Hidden REF and made available under a [CC0 1.0 Universal public domain](https://github.com/HiddenREF/Portfolios/blob/main/LICENSE) dedication. REF 2021 data reproduced here is released under a [CC BY 4.0 International license](https://github.com/HiddenREF/Portfolios/blob/main/LICENSE-DATA).
 
 ### Files
 
